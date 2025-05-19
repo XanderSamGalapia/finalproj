@@ -1,2 +1,6 @@
-cheating
-normal
+streamlit
+tensorflow==2.14.0
+Pillow
+numpy
+opencv-python
+ultralytics

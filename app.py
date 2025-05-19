@@ -4,7 +4,7 @@ import numpy as np
 
 @st.cache_resource
 def load_gru_model():
-    model = load_model('/Users/xantinegalapia/Documents/fpfp/ffinalproj/cheating_gru_model(0.88ac, 0.97 val).keras')
+    model = load_model('cheating_gru_model(0.88ac, 0.97 val).keras')
     return model
 
 model = load_gru_model()
